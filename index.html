@@ -2,62 +2,101 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jeneral Gurup</title>
 
   <style>
     body {
       margin: 0;
-      font-family: Arial;
-      background: #1a1a1a;
-      color: white;
-      text-align: center;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #fff;
     }
 
     header {
-      padding: 40px;
-      font-size: 35px;
       background: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
     }
 
-    .content {
-      margin-top: 80px;
+    .container {
+      max-width: 900px;
+      margin: auto;
       padding: 20px;
     }
 
     .card {
-      background: #2a2a2a;
+      background: #1f1f1f;
       padding: 20px;
-      margin: 20px auto;
-      width: 80%;
+      margin: 15px 0;
       border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #00ffcc;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #00c9a5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
     }
   </style>
 </head>
 
 <body>
 
-<header>🏗️ Jeneral Gurup</header>
+<header>
+  🏗️ Jeneral Gurup
+</header>
 
-<div class="content">
+<div class="container">
 
   <div class="card">
-    <h2>🔧 Usta Bulmanın En Kolay Yolu</h2>
-    <p>İhtiyacını yaz, ustalar sana ulaşsın.</p>
+    <h2>Usta Bulmanın En Kolay Yolu</h2>
+    <p>
+      Jeneral Gurup, inşaat ve tamirat işleri için kullanıcıları ustalarla buluşturan bir platformdur.
+    </p>
   </div>
 
   <div class="card">
-    <h2>📌 Nasıl Çalışır?</h2>
-    <p>1. İş ilanı aç</p>
-    <p>2. Ustalar teklif versin</p>
-    <p>3. En uygun ustayı seç</p>
+    <h2>📌 Sistem Nasıl Çalışır?</h2>
+    <ul>
+      <li>İş ilanı (ticket) oluştur</li>
+      <li>Ustalar başvuru yapsın</li>
+      <li>Mesajlaş ve anlaş</li>
+      <li>İşi başlat</li>
+    </ul>
   </div>
 
   <div class="card">
-    <h2>🚧 Yapım Aşamasında</h2>
-    <p>Yakında aktif olacak</p>
+    <h2>🚧 Sistem Durumu</h2>
+    <p>Platform şu anda geliştirme aşamasındadır.</p>
   </div>
+
+  <a class="btn" href="#">İlan Oluştur (Yakında)</a>
 
 </div>
+
+<footer>
+  © 2026 Jeneral Gurup - Tüm hakları saklıdır
+</footer>
 
 </body>
 </html>
